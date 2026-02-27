@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "NEW TAB TG FAST - Extencion",
+  "description": "Nueva pestana personalizable con reloj matematico, buscador, accesos y panel de ajustes.",
+  "version": "2.1.0",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "topSites",
+    "identity",
+    "identity.email"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
